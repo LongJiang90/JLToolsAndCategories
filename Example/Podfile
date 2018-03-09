@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JLToolsAndCategories_Example' do
+  pod 'JLToolsAndCategories', :path => '../'
+
+  target 'JLToolsAndCategories_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
