@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Categories' do |ss|
     ss.source_files = 'JLToolsAndCategories/Classes/Categories/*.{h,m}'
-    ss.public_header_files = 'JLToolsAndCategories/Classes/Categories/CategoriesH.h'
+    ss.public_header_files = 'JLToolsAndCategories/Classes/Categories/*.h'
     ss.frameworks = 'UIKit', 'Foundation', 'QuartzCore'
   end
 

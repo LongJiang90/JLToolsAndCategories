@@ -12,6 +12,15 @@
 
 #import "JLToolsAndCategories.h"
 #import "CategoriesH.h"
+#import "NSData+JLNSDataKit.h"
+#import "NSDate+JLDateKit.h"
+#import "NSNumber+JLNSNumberKit.h"
+#import "NSString+JLNSStringKit.h"
+#import "UIButton+JLUIButtonKit.h"
+#import "UIColor+JLColorKit.h"
+#import "UIImage+JLImageKit.h"
+#import "UILabel+JLUILabelKit.h"
+#import "UIView+JLUiViewKit.h"
 #import "JLTools.h"
 
 FOUNDATION_EXPORT double JLToolsAndCategoriesVersionNumber;

@@ -29,7 +29,7 @@
     {
       "name": "Categories",
       "source_files": "JLToolsAndCategories/Classes/Categories/*.{h,m}",
-      "public_header_files": "JLToolsAndCategories/Classes/Categories/CategoriesH.h",
+      "public_header_files": "JLToolsAndCategories/Classes/Categories/*.h",
       "frameworks": [
         "UIKit",
         "Foundation",

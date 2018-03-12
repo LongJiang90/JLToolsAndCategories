@@ -9,38 +9,38 @@
 /* Begin PBXBuildFile section */
 		0291DA10D3928B1ACDF90755895D810F /* Pods-JLToolsAndCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E3025637AE2B37584DAEDD094AF1D9 /* Pods-JLToolsAndCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05D4666249B4A17D701116789A449878 /* NSNumber+JLNSNumberKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEA5C9D4B1F452CA3889DD0FC87F712 /* NSNumber+JLNSNumberKit.m */; };
+		05F0D4CB7F3D54B6C8B2E12330E3DFB7 /* NSNumber+JLNSNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C36ABE341211D55E7C554AA49A9FFD31 /* NSNumber+JLNSNumberKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		12551B86CD01ED5B30378154E21E18A1 /* UIButton+JLUIButtonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B47FE4DBB28BBEBE634F063557FA /* UIButton+JLUIButtonKit.m */; };
 		12F309EAB5C9746D35363B8A25F88369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */; };
 		16658B17BCB33D32D09622A85CCBFB10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF76470D815606C601998A264CDF1645 /* QuartzCore.framework */; };
-		1AA4D4782E755AE1CBC7426B031DECDF /* NSNumber+JLNSNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C36ABE341211D55E7C554AA49A9FFD31 /* NSNumber+JLNSNumberKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		254317BC30E885CC3E58F674A123CBC0 /* Pods-JLToolsAndCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7857B3122A44A33E7D740C4B9AEBFF68 /* Pods-JLToolsAndCategories_Tests-dummy.m */; };
 		2AA11EAD9F9B8F313260F26A0450D684 /* JLToolsAndCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C34F55A7D8F50D35F603800A67EC49 /* JLToolsAndCategories-dummy.m */; };
 		3054002904842CF8954DAFEA206C85B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */; };
-		33320B9F9CD059950099F2E237F5B17E /* NSString+JLNSStringKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3941A136926E319567B68524B4A8BBEA /* NSString+JLNSStringKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30A9B93E862394716930B29F46D5AB4F /* UIView+JLUiViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7ABD0EB88539D867F27DB9575CF04 /* UIView+JLUiViewKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		37EC9846916F58B941326C30535FD9AC /* NSString+JLNSStringKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C386F6F3AC684A2F8089E5410BFE0354 /* NSString+JLNSStringKit.m */; };
 		3AACA4DD6F3517F4B358FAC155115BE4 /* UIColor+JLColorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9D024BB06E4530C149A4822C6CB9C /* UIColor+JLColorKit.m */; };
 		3DEAE61842CE4A0E4D92E56B0B262FFF /* JLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0A5D8EB7F49A914F059233F11D4286 /* JLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E962D42695ADDC6A00BF057F12F0A1F /* NSDate+JLDateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F1796CB276CB63CA46FEBA3549E6F1 /* NSDate+JLDateKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4507468B78E51047E11D8ECA347238AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD45700EDBE9BA9C2687D3A6A8C5B84 /* UIKit.framework */; };
-		4DFBE9647AEC4866A7B15A74D1FFA8ED /* NSDate+JLDateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F1796CB276CB63CA46FEBA3549E6F1 /* NSDate+JLDateKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6940CC1330592C93465462E1EC30D4D3 /* NSData+JLNSDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3530C95BA58AB58D54D1BD8532FD09 /* NSData+JLNSDataKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5F825C0991B33B497B11BF38DC920E49 /* UIColor+JLColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0446AA4A42193199A4D2AB6C79FCFFD2 /* UIColor+JLColorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C45511BBC1306930622337EC330D35F /* CategoriesH.h in Headers */ = {isa = PBXBuildFile; fileRef = F86EEB5EBA92D6DB9CEAD5DE505CB500 /* CategoriesH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727D9CA94962C09351E778672FB3E443 /* NSData+JLNSDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3530C95BA58AB58D54D1BD8532FD09 /* NSData+JLNSDataKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7ACD9073341A4BAB66427065D83E074D /* JLToolsAndCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D24362A62A20AB543760468A85F6F74A /* JLToolsAndCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		81EEFDC0CC8B91F331E98821D76F6398 /* UIButton+JLUIButtonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B967E43D3509F3AF02434C911DBE4F8A /* UIButton+JLUIButtonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		801D719E7BBBC4F1130B5FADDA3A99A0 /* UIButton+JLUIButtonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B967E43D3509F3AF02434C911DBE4F8A /* UIButton+JLUIButtonKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8268ED37C37E6D548AB5E6A4FC95EC01 /* UILabel+JLUILabelKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF71EBDF36F0A63CDEE470D048F96B1 /* UILabel+JLUILabelKit.m */; };
-		873CBA6B2E2786F3AA01E0D111EE23E9 /* UIImage+JLImageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B564451CF84C4DC09B5B53B606E2D8F3 /* UIImage+JLImageKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9991950094FFB9F08979F4881257FA2A /* Pods-JLToolsAndCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD480646780F9718FECD0F563401944 /* Pods-JLToolsAndCategories_Example-dummy.m */; };
 		A1C68C53810934E947E66FC1AFE254A2 /* JLToolsAndCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A433EA4B93DA9C3F4881692428FCDFB4 /* JLToolsAndCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A4E59F984C0A788F8164DFEBD9EF8817 /* UIImage+JLImageKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A875355070C60F2994477D960D6FDA /* UIImage+JLImageKit.m */; };
-		AEFDC497DCABA2B1D3C9CD8A1EBB46B2 /* UIView+JLUiViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7ABD0EB88539D867F27DB9575CF04 /* UIView+JLUiViewKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B0763AC73248CE8E14DA81731AA9595E /* Pods-JLToolsAndCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC0C8CD41D86F70736EC78E8D47E398 /* Pods-JLToolsAndCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B885CF0823E93B03A426C5CCCD8986A2 /* UIView+JLUiViewKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 394C5E038AD3E6DE1FEB937E9B700401 /* UIView+JLUiViewKit.m */; };
+		BCF21D8DB62945A7548DCCFE973F17B5 /* NSString+JLNSStringKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3941A136926E319567B68524B4A8BBEA /* NSString+JLNSStringKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDDDC33F05F02A27D3A42DA72C6C5E70 /* JLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4F11BE7BD5DF264C747A858A9ECD7 /* JLTools.m */; };
 		C21E2EDEC3DF6F29E3887F937FE86B07 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6B84119D1E9CCDDF2D85A273C0F86A /* Accelerate.framework */; };
+		C344A33C833F1320B64CF73F1C4F5AA8 /* UILabel+JLUILabelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B872A17DB14739AC08636E572B160182 /* UILabel+JLUILabelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEB7990FE0F0487CE2619B435F5FE796 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F56F2C57F21BAC5538F2D9D1827C33D /* AudioToolbox.framework */; };
-		D1821F48AA04209A135E4EDBF87C1BD5 /* UIColor+JLColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0446AA4A42193199A4D2AB6C79FCFFD2 /* UIColor+JLColorKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DA188B3ECE16ACA7F9BFA720D61B14E7 /* NSDate+JLDateKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F55A827C1FE4B2104CF87E4F8C0FA301 /* NSDate+JLDateKit.m */; };
-		E5AC6C7BA3F701CF79D84098F3A75874 /* UILabel+JLUILabelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B872A17DB14739AC08636E572B160182 /* UILabel+JLUILabelKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E92DCAE923A5435752E71FAB3264CD18 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1CAB430452B544687ED003853FD378 /* AVFoundation.framework */; };
+		F57A320FA9B09654FEBC2FDA330E4F9E /* UIImage+JLImageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B564451CF84C4DC09B5B53B606E2D8F3 /* UIImage+JLImageKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F6275CC15FA161108EF254762483D4B0 /* NSData+JLNSDataKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C7633E0C5C48FC1BC9150BBC91BB5 /* NSData+JLNSDataKit.m */; };
 		F7FFBE73D869164E4DC018ACA511C557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */; };
 		F8EC26A21D7E427406D22954B46ECD14 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64E2CCD4E88E73329D4DE5F19896FEF /* CoreText.framework */; };
@@ -322,15 +322,15 @@
 				3DEAE61842CE4A0E4D92E56B0B262FFF /* JLTools.h in Headers */,
 				A1C68C53810934E947E66FC1AFE254A2 /* JLToolsAndCategories-umbrella.h in Headers */,
 				7ACD9073341A4BAB66427065D83E074D /* JLToolsAndCategories.h in Headers */,
-				6940CC1330592C93465462E1EC30D4D3 /* NSData+JLNSDataKit.h in Headers */,
-				4DFBE9647AEC4866A7B15A74D1FFA8ED /* NSDate+JLDateKit.h in Headers */,
-				1AA4D4782E755AE1CBC7426B031DECDF /* NSNumber+JLNSNumberKit.h in Headers */,
-				33320B9F9CD059950099F2E237F5B17E /* NSString+JLNSStringKit.h in Headers */,
-				81EEFDC0CC8B91F331E98821D76F6398 /* UIButton+JLUIButtonKit.h in Headers */,
-				D1821F48AA04209A135E4EDBF87C1BD5 /* UIColor+JLColorKit.h in Headers */,
-				873CBA6B2E2786F3AA01E0D111EE23E9 /* UIImage+JLImageKit.h in Headers */,
-				E5AC6C7BA3F701CF79D84098F3A75874 /* UILabel+JLUILabelKit.h in Headers */,
-				AEFDC497DCABA2B1D3C9CD8A1EBB46B2 /* UIView+JLUiViewKit.h in Headers */,
+				727D9CA94962C09351E778672FB3E443 /* NSData+JLNSDataKit.h in Headers */,
+				3E962D42695ADDC6A00BF057F12F0A1F /* NSDate+JLDateKit.h in Headers */,
+				05F0D4CB7F3D54B6C8B2E12330E3DFB7 /* NSNumber+JLNSNumberKit.h in Headers */,
+				BCF21D8DB62945A7548DCCFE973F17B5 /* NSString+JLNSStringKit.h in Headers */,
+				801D719E7BBBC4F1130B5FADDA3A99A0 /* UIButton+JLUIButtonKit.h in Headers */,
+				5F825C0991B33B497B11BF38DC920E49 /* UIColor+JLColorKit.h in Headers */,
+				F57A320FA9B09654FEBC2FDA330E4F9E /* UIImage+JLImageKit.h in Headers */,
+				C344A33C833F1320B64CF73F1C4F5AA8 /* UILabel+JLUILabelKit.h in Headers */,
+				30A9B93E862394716930B29F46D5AB4F /* UIView+JLUiViewKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
