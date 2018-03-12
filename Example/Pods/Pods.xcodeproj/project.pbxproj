@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0291DA10D3928B1ACDF90755895D810F /* Pods-JLToolsAndCategories_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E3025637AE2B37584DAEDD094AF1D9 /* Pods-JLToolsAndCategories_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05D4666249B4A17D701116789A449878 /* NSNumber+JLNSNumberKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEA5C9D4B1F452CA3889DD0FC87F712 /* NSNumber+JLNSNumberKit.m */; };
+		12551B86CD01ED5B30378154E21E18A1 /* UIButton+JLUIButtonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C4B47FE4DBB28BBEBE634F063557FA /* UIButton+JLUIButtonKit.m */; };
+		12F309EAB5C9746D35363B8A25F88369 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */; };
+		16658B17BCB33D32D09622A85CCBFB10 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF76470D815606C601998A264CDF1645 /* QuartzCore.framework */; };
+		1AA4D4782E755AE1CBC7426B031DECDF /* NSNumber+JLNSNumberKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C36ABE341211D55E7C554AA49A9FFD31 /* NSNumber+JLNSNumberKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		254317BC30E885CC3E58F674A123CBC0 /* Pods-JLToolsAndCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7857B3122A44A33E7D740C4B9AEBFF68 /* Pods-JLToolsAndCategories_Tests-dummy.m */; };
+		2AA11EAD9F9B8F313260F26A0450D684 /* JLToolsAndCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C34F55A7D8F50D35F603800A67EC49 /* JLToolsAndCategories-dummy.m */; };
+		3054002904842CF8954DAFEA206C85B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */; };
+		33320B9F9CD059950099F2E237F5B17E /* NSString+JLNSStringKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3941A136926E319567B68524B4A8BBEA /* NSString+JLNSStringKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37EC9846916F58B941326C30535FD9AC /* NSString+JLNSStringKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C386F6F3AC684A2F8089E5410BFE0354 /* NSString+JLNSStringKit.m */; };
+		3AACA4DD6F3517F4B358FAC155115BE4 /* UIColor+JLColorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B9D024BB06E4530C149A4822C6CB9C /* UIColor+JLColorKit.m */; };
+		3DEAE61842CE4A0E4D92E56B0B262FFF /* JLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D0A5D8EB7F49A914F059233F11D4286 /* JLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4507468B78E51047E11D8ECA347238AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD45700EDBE9BA9C2687D3A6A8C5B84 /* UIKit.framework */; };
+		4DFBE9647AEC4866A7B15A74D1FFA8ED /* NSDate+JLDateKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 91F1796CB276CB63CA46FEBA3549E6F1 /* NSDate+JLDateKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6940CC1330592C93465462E1EC30D4D3 /* NSData+JLNSDataKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA3530C95BA58AB58D54D1BD8532FD09 /* NSData+JLNSDataKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C45511BBC1306930622337EC330D35F /* CategoriesH.h in Headers */ = {isa = PBXBuildFile; fileRef = F86EEB5EBA92D6DB9CEAD5DE505CB500 /* CategoriesH.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACD9073341A4BAB66427065D83E074D /* JLToolsAndCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = D24362A62A20AB543760468A85F6F74A /* JLToolsAndCategories.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81EEFDC0CC8B91F331E98821D76F6398 /* UIButton+JLUIButtonKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B967E43D3509F3AF02434C911DBE4F8A /* UIButton+JLUIButtonKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8268ED37C37E6D548AB5E6A4FC95EC01 /* UILabel+JLUILabelKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BAF71EBDF36F0A63CDEE470D048F96B1 /* UILabel+JLUILabelKit.m */; };
+		873CBA6B2E2786F3AA01E0D111EE23E9 /* UIImage+JLImageKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B564451CF84C4DC09B5B53B606E2D8F3 /* UIImage+JLImageKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9991950094FFB9F08979F4881257FA2A /* Pods-JLToolsAndCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD480646780F9718FECD0F563401944 /* Pods-JLToolsAndCategories_Example-dummy.m */; };
+		A1C68C53810934E947E66FC1AFE254A2 /* JLToolsAndCategories-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A433EA4B93DA9C3F4881692428FCDFB4 /* JLToolsAndCategories-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4E59F984C0A788F8164DFEBD9EF8817 /* UIImage+JLImageKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A875355070C60F2994477D960D6FDA /* UIImage+JLImageKit.m */; };
+		AEFDC497DCABA2B1D3C9CD8A1EBB46B2 /* UIView+JLUiViewKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE7ABD0EB88539D867F27DB9575CF04 /* UIView+JLUiViewKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B0763AC73248CE8E14DA81731AA9595E /* Pods-JLToolsAndCategories_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC0C8CD41D86F70736EC78E8D47E398 /* Pods-JLToolsAndCategories_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B885CF0823E93B03A426C5CCCD8986A2 /* UIView+JLUiViewKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 394C5E038AD3E6DE1FEB937E9B700401 /* UIView+JLUiViewKit.m */; };
+		BDDDC33F05F02A27D3A42DA72C6C5E70 /* JLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A4F11BE7BD5DF264C747A858A9ECD7 /* JLTools.m */; };
+		C21E2EDEC3DF6F29E3887F937FE86B07 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6B84119D1E9CCDDF2D85A273C0F86A /* Accelerate.framework */; };
+		CEB7990FE0F0487CE2619B435F5FE796 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F56F2C57F21BAC5538F2D9D1827C33D /* AudioToolbox.framework */; };
+		D1821F48AA04209A135E4EDBF87C1BD5 /* UIColor+JLColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0446AA4A42193199A4D2AB6C79FCFFD2 /* UIColor+JLColorKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA188B3ECE16ACA7F9BFA720D61B14E7 /* NSDate+JLDateKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F55A827C1FE4B2104CF87E4F8C0FA301 /* NSDate+JLDateKit.m */; };
+		E5AC6C7BA3F701CF79D84098F3A75874 /* UILabel+JLUILabelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B872A17DB14739AC08636E572B160182 /* UILabel+JLUILabelKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E92DCAE923A5435752E71FAB3264CD18 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1CAB430452B544687ED003853FD378 /* AVFoundation.framework */; };
+		F6275CC15FA161108EF254762483D4B0 /* NSData+JLNSDataKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C7633E0C5C48FC1BC9150BBC91BB5 /* NSData+JLNSDataKit.m */; };
+		F7FFBE73D869164E4DC018ACA511C557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */; };
+		F8EC26A21D7E427406D22954B46ECD14 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E64E2CCD4E88E73329D4DE5F19896FEF /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6EF081D3DAADBA90BA477D7D79B4B25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBA6F7ED1E3A367BD7A6AECA160AC5B;
+			remoteInfo = JLToolsAndCategories;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04234C4773971C632B35895DE390BCCD /* Pods-JLToolsAndCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLToolsAndCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0446AA4A42193199A4D2AB6C79FCFFD2 /* UIColor+JLColorKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+JLColorKit.h"; sourceTree = "<group>"; };
+		046CC993ABA176F4250845EDABB67D1E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD480646780F9718FECD0F563401944 /* Pods-JLToolsAndCategories_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLToolsAndCategories_Example-dummy.m"; sourceTree = "<group>"; };
+		141692E15879FD1EAE1AA8CB619ED50F /* JLToolsAndCategories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JLToolsAndCategories.framework; path = JLToolsAndCategories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1815EBDDAE45AA6F6DE82B2F26571F5B /* Pods_JLToolsAndCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLToolsAndCategories_Tests.framework; path = "Pods-JLToolsAndCategories_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1980543416A0C1F18EA19BF3C5BC364A /* Pods-JLToolsAndCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLToolsAndCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
+		23A875355070C60F2994477D960D6FDA /* UIImage+JLImageKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JLImageKit.m"; sourceTree = "<group>"; };
+		2CE7ABD0EB88539D867F27DB9575CF04 /* UIView+JLUiViewKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JLUiViewKit.h"; sourceTree = "<group>"; };
+		2E6B84119D1E9CCDDF2D85A273C0F86A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		35E072765928AF781FC283ED79851AA7 /* Pods-JLToolsAndCategories_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLToolsAndCategories_Example.modulemap"; sourceTree = "<group>"; };
+		3941A136926E319567B68524B4A8BBEA /* NSString+JLNSStringKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+JLNSStringKit.h"; sourceTree = "<group>"; };
+		394C5E038AD3E6DE1FEB937E9B700401 /* UIView+JLUiViewKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLUiViewKit.m"; sourceTree = "<group>"; };
+		3E5500DDC939315A974A704F4540B4F0 /* Pods-JLToolsAndCategories_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLToolsAndCategories_Tests-resources.sh"; sourceTree = "<group>"; };
+		456552E0213CBE115492183A6E1305EC /* Pods-JLToolsAndCategories_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JLToolsAndCategories_Tests.modulemap"; sourceTree = "<group>"; };
+		4D0A5D8EB7F49A914F059233F11D4286 /* JLTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JLTools.h; sourceTree = "<group>"; };
+		5D2E0DF218DD153AEE7765FEDC40C8F0 /* Pods-JLToolsAndCategories_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLToolsAndCategories_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60B9D024BB06E4530C149A4822C6CB9C /* UIColor+JLColorKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JLColorKit.m"; sourceTree = "<group>"; };
+		63C4B47FE4DBB28BBEBE634F063557FA /* UIButton+JLUIButtonKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JLUIButtonKit.m"; sourceTree = "<group>"; };
+		65E2857C384449B0D9B72F8626F72A6A /* JLToolsAndCategories-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToolsAndCategories-prefix.pch"; sourceTree = "<group>"; };
+		6A83C6661146B9F8B8BD1ED52ED18C50 /* Pods-JLToolsAndCategories_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLToolsAndCategories_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		75E23E427D56F5359B6C5CAAEE4B1A5C /* JLToolsAndCategories.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JLToolsAndCategories.xcconfig; sourceTree = "<group>"; };
+		7857B3122A44A33E7D740C4B9AEBFF68 /* Pods-JLToolsAndCategories_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JLToolsAndCategories_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A1CAB430452B544687ED003853FD378 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FC0C8CD41D86F70736EC78E8D47E398 /* Pods-JLToolsAndCategories_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLToolsAndCategories_Example-umbrella.h"; sourceTree = "<group>"; };
+		850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B3C7633E0C5C48FC1BC9150BBC91BB5 /* NSData+JLNSDataKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+JLNSDataKit.m"; sourceTree = "<group>"; };
+		8C2E96095473D992AECF230751731D9D /* Pods-JLToolsAndCategories_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JLToolsAndCategories_Example-resources.sh"; sourceTree = "<group>"; };
+		91F1796CB276CB63CA46FEBA3549E6F1 /* NSDate+JLDateKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDate+JLDateKit.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9971DA445BE093E8D5540932D56D42EB /* Pods-JLToolsAndCategories_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLToolsAndCategories_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9F56F2C57F21BAC5538F2D9D1827C33D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		A433EA4B93DA9C3F4881692428FCDFB4 /* JLToolsAndCategories-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JLToolsAndCategories-umbrella.h"; sourceTree = "<group>"; };
+		ABDE86C8C42AAD3DA85731A8C325BA07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2CC50E82AE1E34105E0CD9FA48C8709 /* Pods-JLToolsAndCategories_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JLToolsAndCategories_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B564451CF84C4DC09B5B53B606E2D8F3 /* UIImage+JLImageKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JLImageKit.h"; sourceTree = "<group>"; };
+		B872A17DB14739AC08636E572B160182 /* UILabel+JLUILabelKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+JLUILabelKit.h"; sourceTree = "<group>"; };
+		B967E43D3509F3AF02434C911DBE4F8A /* UIButton+JLUIButtonKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+JLUIButtonKit.h"; sourceTree = "<group>"; };
+		BAF71EBDF36F0A63CDEE470D048F96B1 /* UILabel+JLUILabelKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JLUILabelKit.m"; sourceTree = "<group>"; };
+		BBEA5C9D4B1F452CA3889DD0FC87F712 /* NSNumber+JLNSNumberKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+JLNSNumberKit.m"; sourceTree = "<group>"; };
+		BFD45700EDBE9BA9C2687D3A6A8C5B84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C36ABE341211D55E7C554AA49A9FFD31 /* NSNumber+JLNSNumberKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+JLNSNumberKit.h"; sourceTree = "<group>"; };
+		C386F6F3AC684A2F8089E5410BFE0354 /* NSString+JLNSStringKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+JLNSStringKit.m"; sourceTree = "<group>"; };
+		C8A4F11BE7BD5DF264C747A858A9ECD7 /* JLTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JLTools.m; sourceTree = "<group>"; };
+		CA3530C95BA58AB58D54D1BD8532FD09 /* NSData+JLNSDataKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+JLNSDataKit.h"; sourceTree = "<group>"; };
+		CF76470D815606C601998A264CDF1645 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D1D8C948D4623294D8244A39D586FBAA /* Pods-JLToolsAndCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLToolsAndCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D24362A62A20AB543760468A85F6F74A /* JLToolsAndCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JLToolsAndCategories.h; path = JLToolsAndCategories/Classes/JLToolsAndCategories.h; sourceTree = "<group>"; };
+		D474F18DE5614D24D39C421870CFB534 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC19688553F9F4827942066EB4E8152E /* Pods-JLToolsAndCategories_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLToolsAndCategories_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3AA706F267FDD98C938D1EB9315701D /* Pods_JLToolsAndCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JLToolsAndCategories_Example.framework; path = "Pods-JLToolsAndCategories_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E64E2CCD4E88E73329D4DE5F19896FEF /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		E7C34F55A7D8F50D35F603800A67EC49 /* JLToolsAndCategories-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JLToolsAndCategories-dummy.m"; sourceTree = "<group>"; };
+		EE5D7C52D3F99BDCEB5DE7D0DDBB876F /* Pods-JLToolsAndCategories_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JLToolsAndCategories_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F55A827C1FE4B2104CF87E4F8C0FA301 /* NSDate+JLDateKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JLDateKit.m"; sourceTree = "<group>"; };
+		F58DDA6017B6100529A50B38C5F8E326 /* Pods-JLToolsAndCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JLToolsAndCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E3025637AE2B37584DAEDD094AF1D9 /* Pods-JLToolsAndCategories_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JLToolsAndCategories_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F86EEB5EBA92D6DB9CEAD5DE505CB500 /* CategoriesH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CategoriesH.h; sourceTree = "<group>"; };
+		F9B4A9D8C228C1ECA06A1D81F5DD4F95 /* JLToolsAndCategories.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JLToolsAndCategories.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB9DC81766F494F0F143405B717F243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12F309EAB5C9746D35363B8A25F88369 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D76D887D758BEC7B5ED793674F4B950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3054002904842CF8954DAFEA206C85B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D64CB67AB6D2E1E8126D73DE0B31293B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21E2EDEC3DF6F29E3887F937FE86B07 /* Accelerate.framework in Frameworks */,
+				CEB7990FE0F0487CE2619B435F5FE796 /* AudioToolbox.framework in Frameworks */,
+				E92DCAE923A5435752E71FAB3264CD18 /* AVFoundation.framework in Frameworks */,
+				F8EC26A21D7E427406D22954B46ECD14 /* CoreText.framework in Frameworks */,
+				F7FFBE73D869164E4DC018ACA511C557 /* Foundation.framework in Frameworks */,
+				16658B17BCB33D32D09622A85CCBFB10 /* QuartzCore.framework in Frameworks */,
+				4507468B78E51047E11D8ECA347238AC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07939365A4CB8E5D8EC4C573685A4AEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A60C0A6614103AB6B6C044630BDFC466 /* Pods-JLToolsAndCategories_Example */,
+				3EF5268D09B5CE0697DE9F4F5A942AE2 /* Pods-JLToolsAndCategories_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EF5268D09B5CE0697DE9F4F5A942AE2 /* Pods-JLToolsAndCategories_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				046CC993ABA176F4250845EDABB67D1E /* Info.plist */,
+				456552E0213CBE115492183A6E1305EC /* Pods-JLToolsAndCategories_Tests.modulemap */,
+				9971DA445BE093E8D5540932D56D42EB /* Pods-JLToolsAndCategories_Tests-acknowledgements.markdown */,
+				DC19688553F9F4827942066EB4E8152E /* Pods-JLToolsAndCategories_Tests-acknowledgements.plist */,
+				7857B3122A44A33E7D740C4B9AEBFF68 /* Pods-JLToolsAndCategories_Tests-dummy.m */,
+				6A83C6661146B9F8B8BD1ED52ED18C50 /* Pods-JLToolsAndCategories_Tests-frameworks.sh */,
+				3E5500DDC939315A974A704F4540B4F0 /* Pods-JLToolsAndCategories_Tests-resources.sh */,
+				F7E3025637AE2B37584DAEDD094AF1D9 /* Pods-JLToolsAndCategories_Tests-umbrella.h */,
+				04234C4773971C632B35895DE390BCCD /* Pods-JLToolsAndCategories_Tests.debug.xcconfig */,
+				D1D8C948D4623294D8244A39D586FBAA /* Pods-JLToolsAndCategories_Tests.release.xcconfig */,
+			);
+			name = "Pods-JLToolsAndCategories_Tests";
+			path = "Target Support Files/Pods-JLToolsAndCategories_Tests";
+			sourceTree = "<group>";
+		};
+		690125F7342006E673FE3E06968BF0F3 /* JLToolsAndCategories */ = {
+			isa = PBXGroup;
+			children = (
+				D24362A62A20AB543760468A85F6F74A /* JLToolsAndCategories.h */,
+				D7B58E07BD037ADD2862B61FDE3EE86E /* Categories */,
+				815629749AE121EEAF4739803B4772F1 /* JLTools */,
+				DF89D441A4BD67A98F6B3F9EA87C995D /* Support Files */,
+			);
+			name = JLToolsAndCategories;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F6D1BE110086327F930CCCB8F849CB4F /* Development Pods */,
+				F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */,
+				8961C1EBAB5A9B6D9F7E7CFE21F19FF5 /* Products */,
+				07939365A4CB8E5D8EC4C573685A4AEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		815629749AE121EEAF4739803B4772F1 /* JLTools */ = {
+			isa = PBXGroup;
+			children = (
+				4D0A5D8EB7F49A914F059233F11D4286 /* JLTools.h */,
+				C8A4F11BE7BD5DF264C747A858A9ECD7 /* JLTools.m */,
+			);
+			name = JLTools;
+			path = JLToolsAndCategories/Classes/JLTools;
+			sourceTree = "<group>";
+		};
+		8961C1EBAB5A9B6D9F7E7CFE21F19FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141692E15879FD1EAE1AA8CB619ED50F /* JLToolsAndCategories.framework */,
+				E3AA706F267FDD98C938D1EB9315701D /* Pods_JLToolsAndCategories_Example.framework */,
+				1815EBDDAE45AA6F6DE82B2F26571F5B /* Pods_JLToolsAndCategories_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A60C0A6614103AB6B6C044630BDFC466 /* Pods-JLToolsAndCategories_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D474F18DE5614D24D39C421870CFB534 /* Info.plist */,
+				35E072765928AF781FC283ED79851AA7 /* Pods-JLToolsAndCategories_Example.modulemap */,
+				B2CC50E82AE1E34105E0CD9FA48C8709 /* Pods-JLToolsAndCategories_Example-acknowledgements.markdown */,
+				EE5D7C52D3F99BDCEB5DE7D0DDBB876F /* Pods-JLToolsAndCategories_Example-acknowledgements.plist */,
+				0CD480646780F9718FECD0F563401944 /* Pods-JLToolsAndCategories_Example-dummy.m */,
+				5D2E0DF218DD153AEE7765FEDC40C8F0 /* Pods-JLToolsAndCategories_Example-frameworks.sh */,
+				8C2E96095473D992AECF230751731D9D /* Pods-JLToolsAndCategories_Example-resources.sh */,
+				7FC0C8CD41D86F70736EC78E8D47E398 /* Pods-JLToolsAndCategories_Example-umbrella.h */,
+				F58DDA6017B6100529A50B38C5F8E326 /* Pods-JLToolsAndCategories_Example.debug.xcconfig */,
+				1980543416A0C1F18EA19BF3C5BC364A /* Pods-JLToolsAndCategories_Example.release.xcconfig */,
+			);
+			name = "Pods-JLToolsAndCategories_Example";
+			path = "Target Support Files/Pods-JLToolsAndCategories_Example";
+			sourceTree = "<group>";
+		};
+		B5CBDE98F9672A333C587CB0FD5EBDCA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E6B84119D1E9CCDDF2D85A273C0F86A /* Accelerate.framework */,
+				9F56F2C57F21BAC5538F2D9D1827C33D /* AudioToolbox.framework */,
+				7A1CAB430452B544687ED003853FD378 /* AVFoundation.framework */,
+				E64E2CCD4E88E73329D4DE5F19896FEF /* CoreText.framework */,
+				850162B02EDBDE6E3619D09874539B80 /* Foundation.framework */,
+				CF76470D815606C601998A264CDF1645 /* QuartzCore.framework */,
+				BFD45700EDBE9BA9C2687D3A6A8C5B84 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7B58E07BD037ADD2862B61FDE3EE86E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F86EEB5EBA92D6DB9CEAD5DE505CB500 /* CategoriesH.h */,
+				CA3530C95BA58AB58D54D1BD8532FD09 /* NSData+JLNSDataKit.h */,
+				8B3C7633E0C5C48FC1BC9150BBC91BB5 /* NSData+JLNSDataKit.m */,
+				91F1796CB276CB63CA46FEBA3549E6F1 /* NSDate+JLDateKit.h */,
+				F55A827C1FE4B2104CF87E4F8C0FA301 /* NSDate+JLDateKit.m */,
+				C36ABE341211D55E7C554AA49A9FFD31 /* NSNumber+JLNSNumberKit.h */,
+				BBEA5C9D4B1F452CA3889DD0FC87F712 /* NSNumber+JLNSNumberKit.m */,
+				3941A136926E319567B68524B4A8BBEA /* NSString+JLNSStringKit.h */,
+				C386F6F3AC684A2F8089E5410BFE0354 /* NSString+JLNSStringKit.m */,
+				B967E43D3509F3AF02434C911DBE4F8A /* UIButton+JLUIButtonKit.h */,
+				63C4B47FE4DBB28BBEBE634F063557FA /* UIButton+JLUIButtonKit.m */,
+				0446AA4A42193199A4D2AB6C79FCFFD2 /* UIColor+JLColorKit.h */,
+				60B9D024BB06E4530C149A4822C6CB9C /* UIColor+JLColorKit.m */,
+				B564451CF84C4DC09B5B53B606E2D8F3 /* UIImage+JLImageKit.h */,
+				23A875355070C60F2994477D960D6FDA /* UIImage+JLImageKit.m */,
+				B872A17DB14739AC08636E572B160182 /* UILabel+JLUILabelKit.h */,
+				BAF71EBDF36F0A63CDEE470D048F96B1 /* UILabel+JLUILabelKit.m */,
+				2CE7ABD0EB88539D867F27DB9575CF04 /* UIView+JLUiViewKit.h */,
+				394C5E038AD3E6DE1FEB937E9B700401 /* UIView+JLUiViewKit.m */,
+			);
+			name = Categories;
+			path = JLToolsAndCategories/Classes/Categories;
+			sourceTree = "<group>";
+		};
+		DF89D441A4BD67A98F6B3F9EA87C995D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABDE86C8C42AAD3DA85731A8C325BA07 /* Info.plist */,
+				F9B4A9D8C228C1ECA06A1D81F5DD4F95 /* JLToolsAndCategories.modulemap */,
+				75E23E427D56F5359B6C5CAAEE4B1A5C /* JLToolsAndCategories.xcconfig */,
+				E7C34F55A7D8F50D35F603800A67EC49 /* JLToolsAndCategories-dummy.m */,
+				65E2857C384449B0D9B72F8626F72A6A /* JLToolsAndCategories-prefix.pch */,
+				A433EA4B93DA9C3F4881692428FCDFB4 /* JLToolsAndCategories-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JLToolsAndCategories";
+			sourceTree = "<group>";
+		};
+		F4CDA5FA9197A41E0081E84F932906EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5CBDE98F9672A333C587CB0FD5EBDCA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6D1BE110086327F930CCCB8F849CB4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				690125F7342006E673FE3E06968BF0F3 /* JLToolsAndCategories */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05D486D541A276660676687C80392414 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C45511BBC1306930622337EC330D35F /* CategoriesH.h in Headers */,
+				3DEAE61842CE4A0E4D92E56B0B262FFF /* JLTools.h in Headers */,
+				A1C68C53810934E947E66FC1AFE254A2 /* JLToolsAndCategories-umbrella.h in Headers */,
+				7ACD9073341A4BAB66427065D83E074D /* JLToolsAndCategories.h in Headers */,
+				6940CC1330592C93465462E1EC30D4D3 /* NSData+JLNSDataKit.h in Headers */,
+				4DFBE9647AEC4866A7B15A74D1FFA8ED /* NSDate+JLDateKit.h in Headers */,
+				1AA4D4782E755AE1CBC7426B031DECDF /* NSNumber+JLNSNumberKit.h in Headers */,
+				33320B9F9CD059950099F2E237F5B17E /* NSString+JLNSStringKit.h in Headers */,
+				81EEFDC0CC8B91F331E98821D76F6398 /* UIButton+JLUIButtonKit.h in Headers */,
+				D1821F48AA04209A135E4EDBF87C1BD5 /* UIColor+JLColorKit.h in Headers */,
+				873CBA6B2E2786F3AA01E0D111EE23E9 /* UIImage+JLImageKit.h in Headers */,
+				E5AC6C7BA3F701CF79D84098F3A75874 /* UILabel+JLUILabelKit.h in Headers */,
+				AEFDC497DCABA2B1D3C9CD8A1EBB46B2 /* UIView+JLUiViewKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C53AB344047087DD9A6A35203A33C5D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0763AC73248CE8E14DA81731AA9595E /* Pods-JLToolsAndCategories_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB39209F0536C16E73D794EAB38075 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0291DA10D3928B1ACDF90755895D810F /* Pods-JLToolsAndCategories_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A06ACD570805247D4075A7A65F4E70D3 /* Pods-JLToolsAndCategories_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2401CAD729A1B28EB39F9CD2EC3C9645 /* Build configuration list for PBXNativeTarget "Pods-JLToolsAndCategories_Example" */;
+			buildPhases = (
+				0E70379A0252AFE7F4F13B1885051BD5 /* Sources */,
+				7D76D887D758BEC7B5ED793674F4B950 /* Frameworks */,
+				C53AB344047087DD9A6A35203A33C5D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8393BCF3092B05443990E34EAA022B35 /* PBXTargetDependency */,
+			);
+			name = "Pods-JLToolsAndCategories_Example";
+			productName = "Pods-JLToolsAndCategories_Example";
+			productReference = E3AA706F267FDD98C938D1EB9315701D /* Pods_JLToolsAndCategories_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBC256CA7DB8B1A7F0EA0D489E976579 /* Pods-JLToolsAndCategories_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0955995FFD7210C6BB8167BAB7DA929B /* Build configuration list for PBXNativeTarget "Pods-JLToolsAndCategories_Tests" */;
+			buildPhases = (
+				470974032DE4F73195CC5DB199143A41 /* Sources */,
+				6FB9DC81766F494F0F143405B717F243 /* Frameworks */,
+				F7DB39209F0536C16E73D794EAB38075 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JLToolsAndCategories_Tests";
+			productName = "Pods-JLToolsAndCategories_Tests";
+			productReference = 1815EBDDAE45AA6F6DE82B2F26571F5B /* Pods_JLToolsAndCategories_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FDBA6F7ED1E3A367BD7A6AECA160AC5B /* JLToolsAndCategories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7370CE0F55BFBE97984BF6F5FE4D3F9 /* Build configuration list for PBXNativeTarget "JLToolsAndCategories" */;
+			buildPhases = (
+				3F56177701652120D8DFF164E527EEC0 /* Sources */,
+				D64CB67AB6D2E1E8126D73DE0B31293B /* Frameworks */,
+				05D486D541A276660676687C80392414 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLToolsAndCategories;
+			productName = JLToolsAndCategories;
+			productReference = 141692E15879FD1EAE1AA8CB619ED50F /* JLToolsAndCategories.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8961C1EBAB5A9B6D9F7E7CFE21F19FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBA6F7ED1E3A367BD7A6AECA160AC5B /* JLToolsAndCategories */,
+				A06ACD570805247D4075A7A65F4E70D3 /* Pods-JLToolsAndCategories_Example */,
+				CBC256CA7DB8B1A7F0EA0D489E976579 /* Pods-JLToolsAndCategories_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E70379A0252AFE7F4F13B1885051BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9991950094FFB9F08979F4881257FA2A /* Pods-JLToolsAndCategories_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F56177701652120D8DFF164E527EEC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDDC33F05F02A27D3A42DA72C6C5E70 /* JLTools.m in Sources */,
+				2AA11EAD9F9B8F313260F26A0450D684 /* JLToolsAndCategories-dummy.m in Sources */,
+				F6275CC15FA161108EF254762483D4B0 /* NSData+JLNSDataKit.m in Sources */,
+				DA188B3ECE16ACA7F9BFA720D61B14E7 /* NSDate+JLDateKit.m in Sources */,
+				05D4666249B4A17D701116789A449878 /* NSNumber+JLNSNumberKit.m in Sources */,
+				37EC9846916F58B941326C30535FD9AC /* NSString+JLNSStringKit.m in Sources */,
+				12551B86CD01ED5B30378154E21E18A1 /* UIButton+JLUIButtonKit.m in Sources */,
+				3AACA4DD6F3517F4B358FAC155115BE4 /* UIColor+JLColorKit.m in Sources */,
+				A4E59F984C0A788F8164DFEBD9EF8817 /* UIImage+JLImageKit.m in Sources */,
+				8268ED37C37E6D548AB5E6A4FC95EC01 /* UILabel+JLUILabelKit.m in Sources */,
+				B885CF0823E93B03A426C5CCCD8986A2 /* UIView+JLUiViewKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		470974032DE4F73195CC5DB199143A41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254317BC30E885CC3E58F674A123CBC0 /* Pods-JLToolsAndCategories_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8393BCF3092B05443990E34EAA022B35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JLToolsAndCategories;
+			target = FDBA6F7ED1E3A367BD7A6AECA160AC5B /* JLToolsAndCategories */;
+			targetProxy = A6EF081D3DAADBA90BA477D7D79B4B25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C2DF9A838896A59232BA1952C7532AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1980543416A0C1F18EA19BF3C5BC364A /* Pods-JLToolsAndCategories_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLToolsAndCategories_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLToolsAndCategories_Example/Pods-JLToolsAndCategories_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLToolsAndCategories_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4277B60502BEBA0FB103FD3815289FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E23E427D56F5359B6C5CAAEE4B1A5C /* JLToolsAndCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLToolsAndCategories/JLToolsAndCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToolsAndCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToolsAndCategories/JLToolsAndCategories.modulemap";
+				PRODUCT_NAME = JLToolsAndCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		59460A3EE25A77A04E4AAC7373541087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E23E427D56F5359B6C5CAAEE4B1A5C /* JLToolsAndCategories.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JLToolsAndCategories/JLToolsAndCategories-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JLToolsAndCategories/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JLToolsAndCategories/JLToolsAndCategories.modulemap";
+				PRODUCT_NAME = JLToolsAndCategories;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A46713D42C47C0BF55AE303AF96960D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1D8C948D4623294D8244A39D586FBAA /* Pods-JLToolsAndCategories_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLToolsAndCategories_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLToolsAndCategories_Tests/Pods-JLToolsAndCategories_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLToolsAndCategories_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8715F820A072B38266663E9B31A1B0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04234C4773971C632B35895DE390BCCD /* Pods-JLToolsAndCategories_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLToolsAndCategories_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLToolsAndCategories_Tests/Pods-JLToolsAndCategories_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLToolsAndCategories_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F59853C3B48E8DCBE4D53B580170CD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F58DDA6017B6100529A50B38C5F8E326 /* Pods-JLToolsAndCategories_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JLToolsAndCategories_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JLToolsAndCategories_Example/Pods-JLToolsAndCategories_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JLToolsAndCategories_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0955995FFD7210C6BB8167BAB7DA929B /* Build configuration list for PBXNativeTarget "Pods-JLToolsAndCategories_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8715F820A072B38266663E9B31A1B0C7 /* Debug */,
+				7A46713D42C47C0BF55AE303AF96960D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2401CAD729A1B28EB39F9CD2EC3C9645 /* Build configuration list for PBXNativeTarget "Pods-JLToolsAndCategories_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59853C3B48E8DCBE4D53B580170CD0F /* Debug */,
+				1C2DF9A838896A59232BA1952C7532AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7370CE0F55BFBE97984BF6F5FE4D3F9 /* Build configuration list for PBXNativeTarget "JLToolsAndCategories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4277B60502BEBA0FB103FD3815289FE6 /* Debug */,
+				59460A3EE25A77A04E4AAC7373541087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

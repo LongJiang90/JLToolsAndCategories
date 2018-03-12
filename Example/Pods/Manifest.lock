@@ -1,0 +1,20 @@
+PODS:
+  - JLToolsAndCategories (0.0.1):
+    - JLToolsAndCategories/Categories (= 0.0.1)
+    - JLToolsAndCategories/JLTools (= 0.0.1)
+  - JLToolsAndCategories/Categories (0.0.1)
+  - JLToolsAndCategories/JLTools (0.0.1)
+
+DEPENDENCIES:
+  - JLToolsAndCategories (from `../`)
+
+EXTERNAL SOURCES:
+  JLToolsAndCategories:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JLToolsAndCategories: 49cb71fa33bb45ab9bdebe135d3524183df0462e
+
+PODFILE CHECKSUM: 7527873f39945a1cc05aa3e01c4bea8ff2647755
+
+COCOAPODS: 1.3.1

@@ -1,0 +1,6 @@
+framework module JLToolsAndCategories {
+  umbrella header "JLToolsAndCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

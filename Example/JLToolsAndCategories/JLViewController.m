@@ -7,6 +7,7 @@
 //
 
 #import "JLViewController.h"
+#import "JLToolsAndCategories.h"
 
 @interface JLViewController ()
 
@@ -18,6 +19,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *phoneNum = @"15523550589";
+    BOOL isMobile = [JLTools isMobileNumber:phoneNum];
+    NSLog(@"%@ %@一个电话",phoneNum,isMobile==YES?@"是":@"不是");
 }
 
 - (void)didReceiveMemoryWarning
