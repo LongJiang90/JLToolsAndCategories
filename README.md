@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Minimum iOS Target:iOS 8
 
 ## Installation
 
@@ -22,7 +23,7 @@ pod 'JLToolsAndCategories'
 
 ## Author
 
-983220205@qq.com, 983220205@qq.com
+983220205@qq.com
 
 ## License
 
