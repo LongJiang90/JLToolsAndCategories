@@ -9,8 +9,8 @@
 
 #import <UIKit/UIKit.h>
 
-//#ifndef CategoriesH_h
-//#define CategoriesH_h
+#ifndef CategoriesH_h
+#define CategoriesH_h
 
 #import "NSDate+JLDateKit.h"
 #import "UIColor+JLColorKit.h"
@@ -22,5 +22,4 @@
 #import "NSNumber+JLNSNumberKit.h"
 #import "UIButton+JLUIButtonKit.h"
 
-//#endif
-
+#endif
